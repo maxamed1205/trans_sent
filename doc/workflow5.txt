@@ -1,0 +1,18 @@
+⏳ Ce qu’il reste à faire pour la pipeline (étape 5 et suivantes) :
+Automatisation du traitement des lots (pipeline complète)
+
+Décommenter et compléter la fonction process_one_batch.
+Appeler les étapes : prétraitement, traduction, post-traitement, analyse.
+Mettre à jour le statut du lot dans le meta à chaque étape ("en_cours", "termine", "erreur").
+Implémenter les étapes de traitement
+
+Créer ou compléter les fonctions : preprocess_batch, translate_batch, postprocess_batch, analyze_batch.
+Chaque fonction doit prendre en entrée le chemin du lot et produire le résultat attendu.
+Archivage (étape 6)
+
+Déplacer les lots terminés dans un dossier archive/ (avec compression optionnelle).
+Mettre à jour le statut dans le meta à "archive" ou "termine".
+Logs et reporting (étape 7)
+
+Générer un rapport synthétique dans analysis/results/ (tableau d’état, histogramme des statuts, etc.).
+Ajouter des logs structurés pour chaque étape de la pipeline.

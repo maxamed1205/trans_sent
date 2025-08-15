@@ -1,0 +1,60 @@
+2025-08-15 22:01:36 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 22:01:36 [INFO] Lots existants supprimés (force_rebuild=True).
+2025-08-15 22:01:36 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00001_00050.parquet (50 phrases)
+2025-08-15 22:01:36 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00051_00100.parquet (50 phrases)
+2025-08-15 22:01:36 [INFO] Meta batch_info.parquet généré : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info.parquet
+2025-08-15 22:01:36 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.104 secondes
+2025-08-15 22:01:36 [INFO] [ÉTAPE 5] 2 lot(s) à traiter : ['en_batch_negation_medical_00001_00050', 'en_batch_negation_medical_00051_00100']
+2025-08-15 22:01:36 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 22:01:36 [INFO] Traitement parallèle activé (1 workers)...
+2025-08-15 22:01:36 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 22:01:36 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00001_00050.parquet
+2025-08-15 22:01:36 [INFO] Prétraitement terminé pour en_batch_negation_medical_00001_00050.parquet
+2025-08-15 22:01:36 [INFO] [TIMER] Fin de 'Prétraitement' : 0.013 secondes
+2025-08-15 22:01:38 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 22:01:38 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 22:01:38 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00001_00050.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 22:01:38 [INFO] Modèle chargé en mode FP16 (half-precision)
+2025-08-15 22:01:38 [INFO] Traduction par batchs de taille 32 (total: 50 phrases)
+2025-08-15 22:01:40 [INFO] Batch traduit : 32 phrases.
+2025-08-15 22:01:40 [INFO] GPU: 152MB / 12281MB
+2025-08-15 22:01:40 [INFO] RAM: 22121MB / 64569MB
+2025-08-15 22:01:40 [INFO] Lots traités: 1 / 2
+2025-08-15 22:01:41 [INFO] Batch traduit : 18 phrases.
+2025-08-15 22:01:41 [INFO] GPU: 151MB / 12281MB
+2025-08-15 22:01:41 [INFO] RAM: 22128MB / 64569MB
+2025-08-15 22:01:41 [INFO] Lots traités: 2 / 2
+2025-08-15 22:01:41 [INFO] Temps moyen par lot: 1.42s
+2025-08-15 22:01:41 [INFO] --- Rapport monitoring ---
+2025-08-15 22:01:41 [INFO] RAM max utilisée: 22128MB / 64569MB
+2025-08-15 22:01:41 [INFO] GPU max utilisé: 152MB / 12281MB
+2025-08-15 22:01:41 [INFO] Temps moyen par lot: 1.42s
+2025-08-15 22:01:41 [INFO] Nombre de lots: 2
+2025-08-15 22:01:41 [ERROR] Erreur sur le lot en_batch_negation_medical_00001_00050
+2025-08-15 22:01:41 [ERROR] unexpected indent (batch_generation_fr.py, line 31)
+2025-08-15 22:01:41 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 22:01:41 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00051_00100.parquet
+2025-08-15 22:01:41 [INFO] Prétraitement terminé pour en_batch_negation_medical_00051_00100.parquet
+2025-08-15 22:01:41 [INFO] [TIMER] Fin de 'Prétraitement' : 0.011 secondes
+2025-08-15 22:01:41 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 22:01:41 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 22:01:41 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00051_00100.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 22:01:42 [INFO] Modèle chargé en mode FP16 (half-precision)
+2025-08-15 22:01:42 [INFO] Traduction par batchs de taille 32 (total: 50 phrases)
+2025-08-15 22:01:43 [INFO] Batch traduit : 32 phrases.
+2025-08-15 22:01:43 [INFO] GPU: 152MB / 12281MB
+2025-08-15 22:01:43 [INFO] RAM: 22129MB / 64569MB
+2025-08-15 22:01:43 [INFO] Lots traités: 1 / 2
+2025-08-15 22:01:43 [INFO] Batch traduit : 18 phrases.
+2025-08-15 22:01:43 [INFO] GPU: 151MB / 12281MB
+2025-08-15 22:01:43 [INFO] RAM: 22122MB / 64569MB
+2025-08-15 22:01:43 [INFO] Lots traités: 2 / 2
+2025-08-15 22:01:43 [INFO] Temps moyen par lot: 0.79s
+2025-08-15 22:01:43 [INFO] --- Rapport monitoring ---
+2025-08-15 22:01:43 [INFO] RAM max utilisée: 22129MB / 64569MB
+2025-08-15 22:01:43 [INFO] GPU max utilisé: 152MB / 12281MB
+2025-08-15 22:01:43 [INFO] Temps moyen par lot: 0.79s
+2025-08-15 22:01:43 [INFO] Nombre de lots: 2
+2025-08-15 22:01:43 [ERROR] Erreur sur le lot en_batch_negation_medical_00051_00100
+2025-08-15 22:01:43 [ERROR] unexpected indent (batch_generation_fr.py, line 31)
+2025-08-15 22:01:43 [INFO] --- Pipeline terminée avec succès ---

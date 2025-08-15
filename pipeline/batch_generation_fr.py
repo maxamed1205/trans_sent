@@ -3,9 +3,10 @@ Génération des lots pour la traduction (fichiers fr_batch_XXXX.parquet et meta
 """
 import os
 import pandas as pd
-from utils.core import log_info, ensure_dir_exists
+from utils.core import log_info, ensure_dir_exists, log_execution_time
 from utils.config_loader import load_config, get_abs_path_from_config
 
+@log_execution_time('Génération lots FR')
 def generate_fr_batch(en_batch_path, fr_sentences):
     """
     Crée un fichier batch de traduction à partir d'un batch source et d'une liste de phrases traduites.
@@ -23,42 +24,22 @@ def generate_fr_batch(en_batch_path, fr_sentences):
     if len(df) != len(fr_sentences):
         raise ValueError("Le nombre de traductions ne correspond pas au nombre de phrases du batch source.")
 
-    # Colonnes à conserver et ordre : id_phrase, fr, nb_words, source_file, line_number
-    cols = []
-    if 'id_phrase' in df.columns:
-        cols.append('id_phrase')
-    df_out = df[cols].copy()
-    df_out['fr'] = fr_sentences
-    if 'nb_words' in df.columns:
-        df_out['nb_words'] = df['nb_words']
-    if 'source_file' in df.columns:
-        df_out['source_file'] = df['source_file']
-    if 'line_number' in df.columns:
-        df_out['line_number'] = df['line_number']
-    # Réordonner les colonnes
-    ordered_cols = []
-    if 'id_phrase' in df_out.columns:
-        ordered_cols.append('id_phrase')
-    ordered_cols.append('fr')
-    if 'nb_words' in df_out.columns:
-        ordered_cols.append('nb_words')
-    if 'source_file' in df_out.columns:
-        ordered_cols.append('source_file')
-    if 'line_number' in df_out.columns:
-        ordered_cols.append('line_number')
-    df_out = df_out[ordered_cols]
-
-    # Générer le nom du batch traduit
+    # Ajoute la colonne 'fr' au batch EN
+    df = df.copy()
+    df['fr'] = fr_sentences
+    # Ne conserve que les colonnes demandées pour le batch FR
+    keep_cols = ['id_phrase', 'fr', 'nb_words', 'line_number']
+    # Détermine le nom du fichier batch FR
     en_batch_name = os.path.basename(en_batch_path)
     if en_batch_name.startswith('en_batch_') and en_batch_name.endswith('.parquet'):
         fr_batch_name = 'fr_' + en_batch_name[len('en_'):]
     else:
         fr_batch_name = 'fr_' + en_batch_name
     fr_batch_path = os.path.join(batches_dir, fr_batch_name)
-    df_out.to_parquet(fr_batch_path, index=False)
-    log_info(f"Lot de traduction généré : {fr_batch_path} ({len(df_out)} phrases)")
+    df[keep_cols].to_parquet(fr_batch_path, index=False)
+    log_info(f"Lot de traduction généré : {fr_batch_path} ({len(df)} phrases)")
 
-    # Mettre à jour le meta fr_batch_info.parquet
+    # Création du meta record
     meta_path = os.path.join(meta_dir, 'fr_batch_info.parquet')
     meta_record = {
         'batch_id': fr_batch_name.replace('.parquet',''),
@@ -74,5 +55,5 @@ def generate_fr_batch(en_batch_path, fr_sentences):
     else:
         meta_df = pd.DataFrame([meta_record])
     meta_df.to_parquet(meta_path, index=False)
-    log_info(f"Meta fr_batch_info.parquet mis à jour : {meta_path}")
+    log_info(f"Meta batch_info_fr.parquet mis à jour : {meta_path}")
     return fr_batch_path

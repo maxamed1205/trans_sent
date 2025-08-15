@@ -1,0 +1,2 @@
+2025-08-15 19:51:41 [ERROR] Erreur critique dans la pipeline
+2025-08-15 19:51:41 [ERROR] expected an indented block after function definition on line 7 (batch_generation_en.py, line 8)

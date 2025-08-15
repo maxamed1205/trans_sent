@@ -3,8 +3,10 @@ Module d'archivage automatique des lots traités.
 """
 import os
 import shutil
-from utils.core import log_info, log_error
+from utils.core import log_info, log_error, log_execution_time
 
+def archive_batch(batch_path, archive_dir):
+@log_execution_time('Archivage lot')
 def archive_batch(batch_path, archive_dir):
     """Déplace un lot traité dans le dossier d'archive."""
     if not os.path.isfile(batch_path):

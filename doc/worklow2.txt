@@ -1,0 +1,21 @@
+Synchronisation config <-> structure réelle
+
+Si tu modifies la structure des dossiers dans la config, il faut s’assurer que tous les scripts et le script d’initialisation suivent bien cette nouvelle structure.
+Action : Ajouter un test ou une commande de validation de la cohérence entre la config et l’arborescence réelle.
+Documentation de la config
+
+Il manque peut-être un README ou une doc qui explique chaque clé du fichier de config (à quoi sert chaque chemin, chaque paramètre).
+Action : Ajouter une documentation ou un exemple commenté de config.
+Validation de la config
+
+Si une clé est manquante ou mal orthographiée dans la config, certains scripts pourraient planter sans message explicite.
+Action : Ajouter une validation stricte de la config au chargement (avec message d’erreur clair).
+
+Tests automatiques
+
+Il n’y a pas encore de tests unitaires pour vérifier que la config est bien chargée et que tous les chemins existent/peuvent être créés.
+Action : Ajouter des tests automatiques pour la validité de la config et l’existence des dossiers/fichiers.
+Gestion multi-environnement
+
+Si tu veux utiliser plusieurs configs (dev, prod, test), il faut prévoir un mécanisme pour charger la bonne config selon l’environnement.
+Action : Ajouter un paramètre d’environnement ou un système de profils dans la config.

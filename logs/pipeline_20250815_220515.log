@@ -1,0 +1,68 @@
+2025-08-15 22:05:16 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 22:05:16 [INFO] Lots existants supprimés (force_rebuild=True).
+2025-08-15 22:05:16 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00001_00050.parquet (50 phrases)
+2025-08-15 22:05:16 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00051_00100.parquet (50 phrases)
+2025-08-15 22:05:16 [INFO] Meta batch_info.parquet généré : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info.parquet
+2025-08-15 22:05:16 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.105 secondes
+2025-08-15 22:05:16 [INFO] [ÉTAPE 5] 2 lot(s) à traiter : ['en_batch_negation_medical_00001_00050', 'en_batch_negation_medical_00051_00100']
+2025-08-15 22:05:16 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 22:05:16 [INFO] Traitement parallèle activé (1 workers)...
+2025-08-15 22:05:16 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 22:05:16 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00001_00050.parquet
+2025-08-15 22:05:16 [INFO] Prétraitement terminé pour en_batch_negation_medical_00001_00050.parquet
+2025-08-15 22:05:16 [INFO] [TIMER] Fin de 'Prétraitement' : 0.013 secondes
+2025-08-15 22:05:18 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 22:05:18 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 22:05:18 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00001_00050.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 22:05:19 [INFO] Modèle chargé en mode FP16 (half-precision)
+2025-08-15 22:05:19 [INFO] Traduction par batchs de taille 32 (total: 50 phrases)
+2025-08-15 22:05:21 [INFO] Batch traduit : 32 phrases.
+2025-08-15 22:05:21 [INFO] GPU: 152MB / 12281MB
+2025-08-15 22:05:21 [INFO] RAM: 22145MB / 64569MB
+2025-08-15 22:05:21 [INFO] Lots traités: 1 / 2
+2025-08-15 22:05:22 [INFO] Batch traduit : 18 phrases.
+2025-08-15 22:05:22 [INFO] GPU: 151MB / 12281MB
+2025-08-15 22:05:22 [INFO] RAM: 22152MB / 64569MB
+2025-08-15 22:05:22 [INFO] Lots traités: 2 / 2
+2025-08-15 22:05:22 [INFO] Temps moyen par lot: 1.48s
+2025-08-15 22:05:22 [INFO] --- Rapport monitoring ---
+2025-08-15 22:05:22 [INFO] RAM max utilisée: 22152MB / 64569MB
+2025-08-15 22:05:22 [INFO] GPU max utilisé: 152MB / 12281MB
+2025-08-15 22:05:22 [INFO] Temps moyen par lot: 1.48s
+2025-08-15 22:05:22 [INFO] Nombre de lots: 2
+2025-08-15 22:05:22 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 22:05:22 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\fr_batch_negation_medical_00001_00050.parquet (50 phrases)
+2025-08-15 22:05:22 [INFO] Meta batch_info_fr.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\fr_batch_info.parquet
+2025-08-15 22:05:22 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.019 secondes
+2025-08-15 22:05:22 [INFO] [TIMER] Fin de 'Traduction' : 3.717 secondes
+2025-08-15 22:05:22 [INFO] Arrêt demandé après traduction du lot en_batch_negation_medical_00001_00050.
+2025-08-15 22:05:22 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 22:05:22 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00051_00100.parquet
+2025-08-15 22:05:22 [INFO] Prétraitement terminé pour en_batch_negation_medical_00051_00100.parquet
+2025-08-15 22:05:22 [INFO] [TIMER] Fin de 'Prétraitement' : 0.009 secondes
+2025-08-15 22:05:22 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 22:05:22 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 22:05:22 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00051_00100.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 22:05:23 [INFO] Modèle chargé en mode FP16 (half-precision)
+2025-08-15 22:05:23 [INFO] Traduction par batchs de taille 32 (total: 50 phrases)
+2025-08-15 22:05:24 [INFO] Batch traduit : 32 phrases.
+2025-08-15 22:05:24 [INFO] GPU: 152MB / 12281MB
+2025-08-15 22:05:24 [INFO] RAM: 22185MB / 64569MB
+2025-08-15 22:05:24 [INFO] Lots traités: 1 / 2
+2025-08-15 22:05:24 [INFO] Batch traduit : 18 phrases.
+2025-08-15 22:05:24 [INFO] GPU: 151MB / 12281MB
+2025-08-15 22:05:24 [INFO] RAM: 22179MB / 64569MB
+2025-08-15 22:05:24 [INFO] Lots traités: 2 / 2
+2025-08-15 22:05:24 [INFO] Temps moyen par lot: 0.78s
+2025-08-15 22:05:24 [INFO] --- Rapport monitoring ---
+2025-08-15 22:05:24 [INFO] RAM max utilisée: 22185MB / 64569MB
+2025-08-15 22:05:24 [INFO] GPU max utilisé: 152MB / 12281MB
+2025-08-15 22:05:24 [INFO] Temps moyen par lot: 0.78s
+2025-08-15 22:05:24 [INFO] Nombre de lots: 2
+2025-08-15 22:05:24 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 22:05:24 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\fr_batch_negation_medical_00051_00100.parquet (50 phrases)
+2025-08-15 22:05:24 [INFO] Meta batch_info_fr.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\fr_batch_info.parquet
+2025-08-15 22:05:24 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.020 secondes
+2025-08-15 22:05:24 [INFO] [TIMER] Fin de 'Traduction' : 2.244 secondes
+2025-08-15 22:05:24 [INFO] Arrêt demandé après traduction du lot en_batch_negation_medical_00051_00100.
+2025-08-15 22:05:24 [INFO] --- Pipeline terminée avec succès ---

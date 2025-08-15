@@ -1,0 +1,77 @@
+✅ Checklist pipeline de traduction
+1. Source des données
+ Les phrases sources sont bien stockées dans un fichier texte ou CSV dans data (ex : negation_medical.txt).
+ Toutes les phrases sont batchées (taille de batch configurable).
+ (Optionnel) Possibilité de sélectionner un sous-ensemble par critère.
+2. Format des lots
+ Les lots initiaux dans translations/batches/ contiennent uniquement :
+  - id_phrase
+  - batch_id
+  - en
+ Aucune colonne de traduction (fr, fr_phrase) ou de résultats n’est présente à ce stade.
+ Les colonnes pour la suite (fr, status, etc.) sont ajoutées par la pipeline, pas à la génération.
+3. Génération des lots
+ La génération des lots ne se fait que si aucun lot n’existe dans translations/batches/.
+ Les lots existants sont conservés, sauf si une option force_rebuild=True est activée.
+4. Meta et suivi
+ Le fichier meta contient pour chaque lot :
+  - batch_id
+  - source
+  - date_creation
+  - nb_phrases
+  - parametres
+  - status
+  - commentaire
+ Le suivi d’état est fait par lot (et par phrase si besoin d’audit fin).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5. Pipeline automatisée
+ La pipeline ne traite que les lots dont le statut n’est pas “termine” ou “erreur”.
+ La gestion de reprise automatique fonctionne (on ne retravaille que les lots non terminés).
+6. Archivage
+ Le lot archivé contient toutes les colonnes finales (source, traduction, scores, etc.).
+ Le statut final du lot est mis à jour dans le meta.
+ Les fichiers sont déplacés dans archive/ (compression optionnelle).
+7. Logs et reporting
+ Les logs incluent : début/fin de chaque étape, erreurs, temps de traitement, résumé par lot.
+ Un rapport synthétique (tableau d’état, histogramme des statuts, etc.) est généré dans analysis/results/ à chaque exécution.
+ 
+ 
+Parfait, voici le plan pour attaquer les étapes 5, 6 et 7 :
+
+Étape 5 : Pipeline automatisée
+
+Objectif : Traiter uniquement les lots dont le statut n’est pas "termine" ou "erreur".
+Implémenter une fonction qui parcourt les lots dans translations/batches/, lit le statut dans le meta, et ne traite que ceux à l’état "en attente", "à traduire", etc.
+Mettre à jour le statut du lot dans le meta à chaque étape (ex : "en cours", "termine", "erreur").
+
+Étape 6 : Archivage
+
+Objectif : À la fin du traitement, déplacer le lot (et son résultat) dans un dossier archive/, compresser si besoin.
+Mettre à jour le statut dans le meta à "archive" ou "termine".
+Garder toutes les colonnes finales dans le fichier archivé.
+Étape 7 : Logs et reporting
+
+Objectif : Générer un rapport synthétique (tableau d’état, histogramme des statuts, etc.) dans analysis/results/ à chaque exécution.
+Ajouter des logs structurés pour chaque étape : début/fin, erreurs, temps de traitement, résumé par lot.
+Je propose de commencer par l’étape 5 : automatisation du traitement des lots selon leur statut.
+Je vais analyser le code existant pour voir où intégrer cette logique et te proposer un plan d’implémentation.
+
+

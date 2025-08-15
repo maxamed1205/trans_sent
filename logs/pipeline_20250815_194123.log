@@ -1,0 +1,13 @@
+2025-08-15 19:41:24 [INFO] Lots existants supprimés (force_rebuild=True).
+2025-08-15 19:41:24 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet (3 phrases)
+2025-08-15 19:41:24 [INFO] Meta batch_info.parquet généré : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info.parquet
+2025-08-15 19:41:24 [INFO] [ÉTAPE 5] 1 lot(s) à traiter : ['batch_0001']
+2025-08-15 19:41:24 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 19:41:24 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet
+2025-08-15 19:41:24 [INFO] Prétraitement terminé pour en_batch_0001.parquet
+2025-08-15 19:41:27 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 19:41:27 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 19:41:28 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\fr_batch_0001.parquet (3 phrases)
+2025-08-15 19:41:28 [INFO] Meta fr_batch_info.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\fr_batch_info.parquet
+2025-08-15 19:41:28 [INFO] Lot batch_0001 prétraité et traduit.
+2025-08-15 19:41:28 [INFO] --- Pipeline terminée avec succès ---

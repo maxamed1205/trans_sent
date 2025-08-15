@@ -1,0 +1,52 @@
+2025-08-15 20:59:13 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 20:59:13 [INFO] Lots existants supprimés (force_rebuild=True).
+2025-08-15 20:59:13 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet (50 phrases)
+2025-08-15 20:59:13 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0002.parquet (50 phrases)
+2025-08-15 20:59:13 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0003.parquet (50 phrases)
+2025-08-15 20:59:13 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0004.parquet (50 phrases)
+2025-08-15 20:59:13 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0005.parquet (50 phrases)
+2025-08-15 20:59:13 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0006.parquet (50 phrases)
+2025-08-15 20:59:13 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0007.parquet (5 phrases)
+2025-08-15 20:59:13 [INFO] Meta batch_info.parquet généré : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info.parquet
+2025-08-15 20:59:13 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.043 secondes
+2025-08-15 20:59:13 [INFO] [ÉTAPE 5] 2 lot(s) à traiter : ['batch_0001', 'batch_0002']
+2025-08-15 20:59:13 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 20:59:13 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 20:59:13 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet
+2025-08-15 20:59:13 [INFO] Prétraitement terminé pour en_batch_0001.parquet
+2025-08-15 20:59:13 [INFO] [TIMER] Fin de 'Prétraitement' : 0.017 secondes
+2025-08-15 20:59:16 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 20:59:16 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 20:59:16 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 20:59:16 [INFO] Modèle chargé en mode FP16 (half-precision)
+2025-08-15 20:59:16 [INFO] Traduction par batchs de taille 50 (total: 50 phrases)
+2025-08-15 20:59:19 [INFO] Batch traduit : 50 phrases.
+2025-08-15 20:59:19 [INFO] --- Rapport monitoring ---
+2025-08-15 20:59:19 [ERROR] Erreur lors du rapport monitoring
+2025-08-15 20:59:19 [ERROR] max() iterable argument is empty
+2025-08-15 20:59:19 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 20:59:19 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\fr_batch_0001.parquet (50 phrases)
+2025-08-15 20:59:19 [INFO] Meta fr_batch_info.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\fr_batch_info.parquet
+2025-08-15 20:59:19 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.008 secondes
+2025-08-15 20:59:19 [INFO] [TIMER] Fin de 'Traduction' : 3.308 secondes
+2025-08-15 20:59:19 [INFO] Arrêt demandé après traduction du lot batch_0001.
+2025-08-15 20:59:19 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 20:59:19 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0002.parquet
+2025-08-15 20:59:19 [INFO] Prétraitement terminé pour en_batch_0002.parquet
+2025-08-15 20:59:19 [INFO] [TIMER] Fin de 'Prétraitement' : 0.010 secondes
+2025-08-15 20:59:19 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 20:59:19 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 20:59:19 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0002.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 20:59:20 [INFO] Modèle chargé en mode FP16 (half-precision)
+2025-08-15 20:59:20 [INFO] Traduction par batchs de taille 50 (total: 50 phrases)
+2025-08-15 20:59:21 [INFO] Batch traduit : 50 phrases.
+2025-08-15 20:59:21 [INFO] --- Rapport monitoring ---
+2025-08-15 20:59:21 [ERROR] Erreur lors du rapport monitoring
+2025-08-15 20:59:21 [ERROR] max() iterable argument is empty
+2025-08-15 20:59:21 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 20:59:21 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\fr_batch_0002.parquet (50 phrases)
+2025-08-15 20:59:21 [INFO] Meta fr_batch_info.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\fr_batch_info.parquet
+2025-08-15 20:59:21 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.009 secondes
+2025-08-15 20:59:21 [INFO] [TIMER] Fin de 'Traduction' : 2.075 secondes
+2025-08-15 20:59:21 [INFO] Arrêt demandé après traduction du lot batch_0002.
+2025-08-15 20:59:21 [INFO] --- Pipeline terminée avec succès ---

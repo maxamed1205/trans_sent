@@ -25,9 +25,13 @@ def validate_config(config, root):
         if key not in config:
             log_error(f'Clé manquante dans la config : {key}')
             raise KeyError(f'Clé manquante dans la config : {key}')
-    # Vérifie que les dossiers principaux existent (sinon les crée)
-    for key in ['raw_data_dir', 'processed_data_dir', 'batches_dir', 'meta_dir', 'logs_dir', 'models_dir']:
-        abs_path = os.path.join(root, config[key])
+    # Crée les dossiers principaux s'ils n'existent pas
+    from utils.core import ensure_dirs_exist
+    dir_keys = ['raw_data_dir', 'processed_data_dir', 'batches_dir', 'meta_dir', 'logs_dir', 'models_dir']
+    abs_paths = [os.path.join(root, config[key]) for key in dir_keys]
+    ensure_dirs_exist(abs_paths)
+    # Vérifie que les dossiers existent bien
+    for abs_path in abs_paths:
         check_dir_exists(abs_path, f'Dossier manquant : {abs_path}')
 
 # Utilitaire pour obtenir un chemin absolu à partir de la config

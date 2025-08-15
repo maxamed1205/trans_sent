@@ -1,0 +1,66 @@
+2025-08-15 21:46:59 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 21:46:59 [INFO] Lots existants supprimés (force_rebuild=True).
+2025-08-15 21:46:59 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00001_00050.parquet (50 phrases)
+2025-08-15 21:46:59 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00051_00100.parquet (50 phrases)
+2025-08-15 21:46:59 [INFO] Meta batch_info.parquet généré : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info.parquet
+2025-08-15 21:46:59 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.107 secondes
+2025-08-15 21:46:59 [INFO] [ÉTAPE 5] 2 lot(s) à traiter : ['batch_00001_00050', 'batch_00051_00100']
+2025-08-15 21:46:59 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 21:46:59 [INFO] Traitement parallèle activé (1 workers)...
+2025-08-15 21:46:59 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 21:46:59 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00001_00050.parquet
+2025-08-15 21:46:59 [INFO] Prétraitement terminé pour batch_00001_00050.parquet
+2025-08-15 21:46:59 [INFO] [TIMER] Fin de 'Prétraitement' : 0.018 secondes
+2025-08-15 21:47:01 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 21:47:01 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 21:47:01 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00001_00050.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 21:47:01 [INFO] Traduction par batchs de taille 32 (total: 50 phrases)
+2025-08-15 21:47:04 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:47:04 [INFO] GPU: 295MB / 12281MB
+2025-08-15 21:47:04 [INFO] RAM: 22218MB / 64569MB
+2025-08-15 21:47:04 [INFO] Lots traités: 1 / 2
+2025-08-15 21:47:05 [INFO] Batch traduit : 18 phrases.
+2025-08-15 21:47:05 [INFO] GPU: 295MB / 12281MB
+2025-08-15 21:47:05 [INFO] RAM: 22225MB / 64569MB
+2025-08-15 21:47:05 [INFO] Lots traités: 2 / 2
+2025-08-15 21:47:05 [INFO] Temps moyen par lot: 1.83s
+2025-08-15 21:47:05 [INFO] --- Rapport monitoring ---
+2025-08-15 21:47:05 [INFO] RAM max utilisée: 22225MB / 64569MB
+2025-08-15 21:47:05 [INFO] GPU max utilisé: 295MB / 12281MB
+2025-08-15 21:47:05 [INFO] Temps moyen par lot: 1.83s
+2025-08-15 21:47:05 [INFO] Nombre de lots: 2
+2025-08-15 21:47:05 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 21:47:05 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00001_00050.parquet (50 phrases)
+2025-08-15 21:47:05 [INFO] Meta batch_info_fr.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info_fr.parquet
+2025-08-15 21:47:05 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.009 secondes
+2025-08-15 21:47:05 [INFO] [TIMER] Fin de 'Traduction' : 4.418 secondes
+2025-08-15 21:47:05 [INFO] Arrêt demandé après traduction du lot batch_00001_00050.
+2025-08-15 21:47:05 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 21:47:05 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00051_00100.parquet
+2025-08-15 21:47:05 [INFO] Prétraitement terminé pour batch_00051_00100.parquet
+2025-08-15 21:47:05 [INFO] [TIMER] Fin de 'Prétraitement' : 0.010 secondes
+2025-08-15 21:47:05 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 21:47:05 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 21:47:05 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00051_00100.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 21:47:06 [INFO] Traduction par batchs de taille 32 (total: 50 phrases)
+2025-08-15 21:47:07 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:47:07 [INFO] GPU: 295MB / 12281MB
+2025-08-15 21:47:07 [INFO] RAM: 22274MB / 64569MB
+2025-08-15 21:47:07 [INFO] Lots traités: 1 / 2
+2025-08-15 21:47:08 [INFO] Batch traduit : 18 phrases.
+2025-08-15 21:47:08 [INFO] GPU: 295MB / 12281MB
+2025-08-15 21:47:08 [INFO] RAM: 22259MB / 64569MB
+2025-08-15 21:47:08 [INFO] Lots traités: 2 / 2
+2025-08-15 21:47:08 [INFO] Temps moyen par lot: 0.99s
+2025-08-15 21:47:08 [INFO] --- Rapport monitoring ---
+2025-08-15 21:47:08 [INFO] RAM max utilisée: 22274MB / 64569MB
+2025-08-15 21:47:08 [INFO] GPU max utilisé: 295MB / 12281MB
+2025-08-15 21:47:08 [INFO] Temps moyen par lot: 0.99s
+2025-08-15 21:47:08 [INFO] Nombre de lots: 2
+2025-08-15 21:47:08 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 21:47:08 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00051_00100.parquet (50 phrases)
+2025-08-15 21:47:08 [INFO] Meta batch_info_fr.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info_fr.parquet
+2025-08-15 21:47:08 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.016 secondes
+2025-08-15 21:47:08 [INFO] [TIMER] Fin de 'Traduction' : 2.704 secondes
+2025-08-15 21:47:08 [INFO] Arrêt demandé après traduction du lot batch_00051_00100.
+2025-08-15 21:47:08 [INFO] --- Pipeline terminée avec succès ---

@@ -1,0 +1,32 @@
+2025-08-15 20:21:37 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 20:21:37 [INFO] Lots déjà présents dans C:\Users\maxam\Desktop\trans_sent\translations\batches, génération ignorée.
+2025-08-15 20:21:37 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.002 secondes
+2025-08-15 20:21:37 [INFO] [ÉTAPE 5] 2 lot(s) à traiter : ['batch_0001', 'batch_0002']
+2025-08-15 20:21:37 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 20:21:37 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 20:21:37 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet
+2025-08-15 20:21:37 [INFO] Prétraitement terminé pour en_batch_0001.parquet
+2025-08-15 20:21:37 [INFO] [TIMER] Fin de 'Prétraitement' : 0.007 secondes
+2025-08-15 20:21:48 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 20:21:48 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 20:21:48 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 20:22:09 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 20:22:09 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\fr_batch_0001.parquet (50 phrases)
+2025-08-15 20:22:09 [INFO] Meta fr_batch_info.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\fr_batch_info.parquet
+2025-08-15 20:22:09 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.014 secondes
+2025-08-15 20:22:09 [INFO] [TIMER] Fin de 'Traduction' : 20.943 secondes
+2025-08-15 20:22:09 [INFO] Arrêt demandé après traduction du lot batch_0001.
+2025-08-15 20:22:09 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 20:22:09 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0002.parquet
+2025-08-15 20:22:09 [INFO] Prétraitement terminé pour en_batch_0002.parquet
+2025-08-15 20:22:09 [INFO] [TIMER] Fin de 'Prétraitement' : 0.005 secondes
+2025-08-15 20:22:09 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 20:22:09 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 20:22:09 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0002.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 20:22:28 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 20:22:28 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\fr_batch_0002.parquet (50 phrases)
+2025-08-15 20:22:28 [INFO] Meta fr_batch_info.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\fr_batch_info.parquet
+2025-08-15 20:22:28 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.011 secondes
+2025-08-15 20:22:28 [INFO] [TIMER] Fin de 'Traduction' : 18.833 secondes
+2025-08-15 20:22:28 [INFO] Arrêt demandé après traduction du lot batch_0002.
+2025-08-15 20:22:28 [INFO] --- Pipeline terminée avec succès ---

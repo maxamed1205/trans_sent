@@ -1,0 +1,17 @@
+2025-08-15 19:52:02 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 19:52:02 [INFO] Lots existants supprimés (force_rebuild=True).
+2025-08-15 19:52:02 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet (3 phrases)
+2025-08-15 19:52:02 [INFO] Meta batch_info.parquet généré : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info.parquet
+2025-08-15 19:52:02 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.021 secondes
+2025-08-15 19:52:02 [INFO] [ÉTAPE 5] 1 lot(s) à traiter : ['batch_0001']
+2025-08-15 19:52:02 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 19:52:02 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 19:52:02 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet
+2025-08-15 19:52:02 [INFO] Prétraitement terminé pour en_batch_0001.parquet
+2025-08-15 19:52:02 [INFO] [TIMER] Fin de 'Prétraitement' : 0.005 secondes
+2025-08-15 19:52:05 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 19:52:05 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 19:52:05 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 19:52:06 [ERROR] Erreur sur le lot batch_0001
+2025-08-15 19:52:06 [ERROR] expected an indented block after function definition on line 9 (batch_generation_fr.py, line 10)
+2025-08-15 19:52:06 [INFO] --- Pipeline terminée avec succès ---

@@ -1,0 +1,27 @@
+data/ : Données brutes et prétraitées.
+translations/batches/ : Lots à traiter (fichiers .parquet).
+translations/meta/ : Métadonnées et suivi d’état des lots.
+logs/ : Dossier prévu pour les logs structurés.
+models/ : Modèles de traduction.
+analysis/results/ : Résultats d’analyse/statistiques, rapports générés.
+analysis/scripts/ : Scripts d’analyse avancée (à compléter).
+examples/, scripts/, tests/, pipeline/, utils/ : Exemples, scripts utilitaires, tests automatiques, modules du pipeline, fonctions utilitaires.
+archive/ : Lots archivés après traitement.
+Pipeline étape par étape
+Chargement de la configuration
+
+Tous les chemins, paramètres et options sont centralisés dans config.yaml et chargés via config_loader.py.
+Détection des lots à traiter
+
+Recherche de tous les fichiers batch (*.parquet) dans translations/batches/.
+Traitement de chaque lot
+
+Pour chaque lot, la pipeline exécute :
+Mise à jour du statut : Le statut du lot passe à en_cours dans le fichier meta.
+Prétraitement (preprocessing.py) : Nettoyage, normalisation, préparation des données.
+Traduction (translation.py) : Traduction automatique du lot avec le modèle spécifié.
+Post-traitement (postprocessing.py) : Nettoyage, filtrage, ou formatage des résultats traduits.
+Analyse/statistiques (analysis.py) : Calcul de métriques, génération de stats ou visualisations.
+Mise à jour du statut : Le statut passe à termine si tout s’est bien passé, sinon à erreur.
+Archivage (pipeline/archiving.py) : Déplacement du lot traité dans le dossier archive/.
+Logging : Toutes les étapes sont loguées pour audit et debug.

@@ -1,0 +1,6 @@
+2025-08-15 20:19:05 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 20:19:05 [INFO] Lots déjà présents dans C:\Users\maxam\Desktop\trans_sent\translations\batches, génération ignorée.
+2025-08-15 20:19:05 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.002 secondes
+2025-08-15 20:19:05 [INFO] [ÉTAPE 5] Aucun lot à traiter : tous les lots sont terminés ou en erreur.
+2025-08-15 20:19:05 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 20:19:05 [INFO] --- Pipeline terminée avec succès ---

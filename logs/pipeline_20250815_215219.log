@@ -1,0 +1,12 @@
+2025-08-15 21:52:20 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 21:52:20 [INFO] Lots existants supprimés (force_rebuild=True).
+2025-08-15 21:52:20 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00001_00050.parquet (50 phrases)
+2025-08-15 21:52:20 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_negation_medical_00051_00100.parquet (50 phrases)
+2025-08-15 21:52:20 [INFO] Meta batch_info.parquet généré : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info.parquet
+2025-08-15 21:52:20 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.105 secondes
+2025-08-15 21:52:20 [INFO] [ÉTAPE 5] 2 lot(s) à traiter : ['en_batch_negation_medical_00001_00050', 'en_batch_negation_medical_00051_00100']
+2025-08-15 21:52:20 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 21:52:20 [INFO] Traitement parallèle activé (1 workers)...
+2025-08-15 21:52:20 [ERROR] Exception dans le traitement du lot en_batch_negation_medical_00001_00050: 'en_batch_negation_medical_00001_00050'
+2025-08-15 21:52:20 [ERROR] Exception dans le traitement du lot en_batch_negation_medical_00051_00100: 'en_batch_negation_medical_00051_00100'
+2025-08-15 21:52:20 [INFO] --- Pipeline terminée avec succès ---

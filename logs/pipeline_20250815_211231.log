@@ -1,0 +1,286 @@
+2025-08-15 21:12:31 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 21:12:31 [INFO] Lots existants supprimés (force_rebuild=True).
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0002.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0003.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0004.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0005.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0006.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0007.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0008.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0009.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0010.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0011.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0012.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0013.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0014.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0015.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0016.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0017.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0018.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0019.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0020.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0021.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0022.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0023.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0024.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0025.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0026.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0027.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0028.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0029.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0030.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0031.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0032.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0033.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0034.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0035.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0036.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0037.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0038.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0039.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0040.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0041.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0042.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0043.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0044.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0045.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0046.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0047.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0048.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0049.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0050.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0051.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0052.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0053.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0054.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0055.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0056.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0057.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0058.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0059.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0060.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0061.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0062.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0063.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0064.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0065.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0066.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0067.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0068.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0069.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0070.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0071.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0072.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0073.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0074.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0075.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0076.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0077.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0078.parquet (1000 phrases)
+2025-08-15 21:12:32 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0079.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0080.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0081.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0082.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0083.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0084.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0085.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0086.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0087.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0088.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0089.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0090.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0091.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0092.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0093.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0094.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0095.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0096.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0097.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0098.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0099.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0100.parquet (1000 phrases)
+2025-08-15 21:12:33 [INFO] Meta batch_info.parquet généré : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info.parquet
+2025-08-15 21:12:33 [INFO] [TIMER] Fin de 'Génération lots EN' : 1.236 secondes
+2025-08-15 21:12:33 [INFO] [ÉTAPE 5] 1 lot(s) à traiter : ['batch_0001']
+2025-08-15 21:12:33 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 21:12:33 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 21:12:33 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet
+2025-08-15 21:12:33 [INFO] Prétraitement terminé pour en_batch_0001.parquet
+2025-08-15 21:12:33 [INFO] [TIMER] Fin de 'Prétraitement' : 0.014 secondes
+2025-08-15 21:12:36 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 21:12:36 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 21:12:36 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\en_batch_0001.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 21:12:36 [INFO] Modèle chargé en mode FP16 (half-precision)
+2025-08-15 21:12:36 [INFO] Traduction par batchs de taille 32 (total: 1000 phrases)
+2025-08-15 21:12:38 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:38 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:38 [INFO] RAM: 20839MB / 64569MB
+2025-08-15 21:12:38 [INFO] Lots traités: 1 / 32
+2025-08-15 21:12:39 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:39 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:39 [INFO] RAM: 20781MB / 64569MB
+2025-08-15 21:12:39 [INFO] Lots traités: 2 / 32
+2025-08-15 21:12:39 [INFO] Temps moyen par lot: 1.32s
+2025-08-15 21:12:40 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:40 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:40 [INFO] RAM: 20748MB / 64569MB
+2025-08-15 21:12:40 [INFO] Lots traités: 3 / 32
+2025-08-15 21:12:40 [INFO] Temps moyen par lot: 1.25s
+2025-08-15 21:12:41 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:41 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:41 [INFO] RAM: 20740MB / 64569MB
+2025-08-15 21:12:41 [INFO] Lots traités: 4 / 32
+2025-08-15 21:12:41 [INFO] Temps moyen par lot: 1.15s
+2025-08-15 21:12:42 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:42 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:42 [INFO] RAM: 20730MB / 64569MB
+2025-08-15 21:12:42 [INFO] Lots traités: 5 / 32
+2025-08-15 21:12:42 [INFO] Temps moyen par lot: 1.10s
+2025-08-15 21:12:42 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:42 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:42 [INFO] RAM: 20732MB / 64569MB
+2025-08-15 21:12:42 [INFO] Lots traités: 6 / 32
+2025-08-15 21:12:42 [INFO] Temps moyen par lot: 1.02s
+2025-08-15 21:12:46 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:46 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:46 [INFO] RAM: 20739MB / 64569MB
+2025-08-15 21:12:46 [INFO] Lots traités: 7 / 32
+2025-08-15 21:12:46 [INFO] Temps moyen par lot: 1.37s
+2025-08-15 21:12:46 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:46 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:46 [INFO] RAM: 20731MB / 64569MB
+2025-08-15 21:12:46 [INFO] Lots traités: 8 / 32
+2025-08-15 21:12:46 [INFO] Temps moyen par lot: 1.28s
+2025-08-15 21:12:47 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:47 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:47 [INFO] RAM: 20741MB / 64569MB
+2025-08-15 21:12:47 [INFO] Lots traités: 9 / 32
+2025-08-15 21:12:47 [INFO] Temps moyen par lot: 1.25s
+2025-08-15 21:12:48 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:48 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:48 [INFO] RAM: 20749MB / 64569MB
+2025-08-15 21:12:48 [INFO] Lots traités: 10 / 32
+2025-08-15 21:12:48 [INFO] Temps moyen par lot: 1.18s
+2025-08-15 21:12:49 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:49 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:49 [INFO] RAM: 20736MB / 64569MB
+2025-08-15 21:12:49 [INFO] Lots traités: 11 / 32
+2025-08-15 21:12:49 [INFO] Temps moyen par lot: 1.14s
+2025-08-15 21:12:50 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:50 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:50 [INFO] RAM: 20808MB / 64569MB
+2025-08-15 21:12:50 [INFO] Lots traités: 12 / 32
+2025-08-15 21:12:50 [INFO] Temps moyen par lot: 1.10s
+2025-08-15 21:12:51 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:51 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:51 [INFO] RAM: 20805MB / 64569MB
+2025-08-15 21:12:51 [INFO] Lots traités: 13 / 32
+2025-08-15 21:12:51 [INFO] Temps moyen par lot: 1.10s
+2025-08-15 21:12:53 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:53 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:53 [INFO] RAM: 20802MB / 64569MB
+2025-08-15 21:12:53 [INFO] Lots traités: 14 / 32
+2025-08-15 21:12:53 [INFO] Temps moyen par lot: 1.21s
+2025-08-15 21:12:54 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:54 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:54 [INFO] RAM: 20802MB / 64569MB
+2025-08-15 21:12:54 [INFO] Lots traités: 15 / 32
+2025-08-15 21:12:54 [INFO] Temps moyen par lot: 1.19s
+2025-08-15 21:12:55 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:55 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:55 [INFO] RAM: 20803MB / 64569MB
+2025-08-15 21:12:55 [INFO] Lots traités: 16 / 32
+2025-08-15 21:12:55 [INFO] Temps moyen par lot: 1.17s
+2025-08-15 21:12:56 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:56 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:56 [INFO] RAM: 20791MB / 64569MB
+2025-08-15 21:12:56 [INFO] Lots traités: 17 / 32
+2025-08-15 21:12:56 [INFO] Temps moyen par lot: 1.14s
+2025-08-15 21:12:56 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:56 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:56 [INFO] RAM: 20801MB / 64569MB
+2025-08-15 21:12:56 [INFO] Lots traités: 18 / 32
+2025-08-15 21:12:56 [INFO] Temps moyen par lot: 1.12s
+2025-08-15 21:12:57 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:57 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:57 [INFO] RAM: 20806MB / 64569MB
+2025-08-15 21:12:57 [INFO] Lots traités: 19 / 32
+2025-08-15 21:12:57 [INFO] Temps moyen par lot: 1.10s
+2025-08-15 21:12:58 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:58 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:58 [INFO] RAM: 20811MB / 64569MB
+2025-08-15 21:12:58 [INFO] Lots traités: 20 / 32
+2025-08-15 21:12:58 [INFO] Temps moyen par lot: 1.08s
+2025-08-15 21:12:59 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:12:59 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:12:59 [INFO] RAM: 20789MB / 64569MB
+2025-08-15 21:12:59 [INFO] Lots traités: 21 / 32
+2025-08-15 21:12:59 [INFO] Temps moyen par lot: 1.06s
+2025-08-15 21:13:00 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:00 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:00 [INFO] RAM: 20821MB / 64569MB
+2025-08-15 21:13:00 [INFO] Lots traités: 22 / 32
+2025-08-15 21:13:00 [INFO] Temps moyen par lot: 1.08s
+2025-08-15 21:13:01 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:01 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:01 [INFO] RAM: 20803MB / 64569MB
+2025-08-15 21:13:01 [INFO] Lots traités: 23 / 32
+2025-08-15 21:13:01 [INFO] Temps moyen par lot: 1.09s
+2025-08-15 21:13:02 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:02 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:02 [INFO] RAM: 20801MB / 64569MB
+2025-08-15 21:13:02 [INFO] Lots traités: 24 / 32
+2025-08-15 21:13:02 [INFO] Temps moyen par lot: 1.07s
+2025-08-15 21:13:03 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:03 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:03 [INFO] RAM: 20785MB / 64569MB
+2025-08-15 21:13:03 [INFO] Lots traités: 25 / 32
+2025-08-15 21:13:03 [INFO] Temps moyen par lot: 1.06s
+2025-08-15 21:13:04 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:04 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:04 [INFO] RAM: 20784MB / 64569MB
+2025-08-15 21:13:04 [INFO] Lots traités: 26 / 32
+2025-08-15 21:13:04 [INFO] Temps moyen par lot: 1.05s
+2025-08-15 21:13:05 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:05 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:05 [INFO] RAM: 20783MB / 64569MB
+2025-08-15 21:13:05 [INFO] Lots traités: 27 / 32
+2025-08-15 21:13:05 [INFO] Temps moyen par lot: 1.05s
+2025-08-15 21:13:10 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:10 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:10 [INFO] RAM: 21656MB / 64569MB
+2025-08-15 21:13:10 [INFO] Lots traités: 28 / 32
+2025-08-15 21:13:10 [INFO] Temps moyen par lot: 1.20s
+2025-08-15 21:13:12 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:12 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:12 [INFO] RAM: 21658MB / 64569MB
+2025-08-15 21:13:12 [INFO] Lots traités: 29 / 32
+2025-08-15 21:13:12 [INFO] Temps moyen par lot: 1.22s
+2025-08-15 21:13:12 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:12 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:12 [INFO] RAM: 21664MB / 64569MB
+2025-08-15 21:13:12 [INFO] Lots traités: 30 / 32
+2025-08-15 21:13:12 [INFO] Temps moyen par lot: 1.21s
+2025-08-15 21:13:14 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:13:14 [INFO] GPU: 152MB / 12281MB
+2025-08-15 21:13:14 [INFO] RAM: 21667MB / 64569MB
+2025-08-15 21:13:14 [INFO] Lots traités: 31 / 32
+2025-08-15 21:13:14 [INFO] Temps moyen par lot: 1.22s
+2025-08-15 21:13:15 [INFO] Batch traduit : 8 phrases.
+2025-08-15 21:13:15 [INFO] GPU: 151MB / 12281MB
+2025-08-15 21:13:15 [INFO] RAM: 21661MB / 64569MB
+2025-08-15 21:13:15 [INFO] Lots traités: 32 / 32
+2025-08-15 21:13:15 [INFO] Temps moyen par lot: 1.20s
+2025-08-15 21:13:15 [INFO] --- Rapport monitoring ---
+2025-08-15 21:13:15 [INFO] RAM max utilisée: 21667MB / 64569MB
+2025-08-15 21:13:15 [INFO] GPU max utilisé: 152MB / 12281MB
+2025-08-15 21:13:15 [INFO] Temps moyen par lot: 1.20s
+2025-08-15 21:13:15 [INFO] Nombre de lots: 32
+2025-08-15 21:13:15 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 21:13:15 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\fr_batch_0001.parquet (1000 phrases)
+2025-08-15 21:13:15 [INFO] Meta fr_batch_info.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\fr_batch_info.parquet
+2025-08-15 21:13:15 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.012 secondes
+2025-08-15 21:13:15 [INFO] [TIMER] Fin de 'Traduction' : 39.163 secondes
+2025-08-15 21:13:15 [INFO] Arrêt demandé après traduction du lot batch_0001.
+2025-08-15 21:13:15 [INFO] --- Pipeline terminée avec succès ---

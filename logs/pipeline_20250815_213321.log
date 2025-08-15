@@ -1,0 +1,67 @@
+2025-08-15 21:33:22 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 21:33:22 [INFO] Lots existants supprimés (force_rebuild=True).
+2025-08-15 21:33:22 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00001_00050.parquet (50 phrases)
+2025-08-15 21:33:22 [INFO] Lot généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00051_00100.parquet (50 phrases)
+2025-08-15 21:33:22 [INFO] Meta batch_info.parquet généré : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info.parquet
+2025-08-15 21:33:22 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.095 secondes
+2025-08-15 21:33:22 [INFO] [ÉTAPE 5] 2 lot(s) à traiter : ['batch_00001_00050', 'batch_00051_00100']
+2025-08-15 21:33:22 [INFO] --- Démarrage de la pipeline automatisée ---
+2025-08-15 21:33:22 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 21:33:22 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00001_00050.parquet
+2025-08-15 21:33:22 [INFO] Prétraitement terminé pour batch_00001_00050.parquet
+2025-08-15 21:33:22 [INFO] [TIMER] Fin de 'Prétraitement' : 0.011 secondes
+2025-08-15 21:33:25 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 21:33:25 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 21:33:25 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00001_00050.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 21:33:25 [INFO] Traduction par batchs de taille 32 (total: 50 phrases)
+2025-08-15 21:33:28 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:33:28 [INFO] GPU: 295MB / 12281MB
+2025-08-15 21:33:28 [INFO] RAM: 20786MB / 64569MB
+2025-08-15 21:33:28 [INFO] Lots traités: 1 / 2
+2025-08-15 21:33:29 [INFO] Batch traduit : 18 phrases.
+2025-08-15 21:33:29 [INFO] GPU: 295MB / 12281MB
+2025-08-15 21:33:29 [INFO] RAM: 20792MB / 64569MB
+2025-08-15 21:33:29 [INFO] Lots traités: 2 / 2
+2025-08-15 21:33:29 [INFO] Temps moyen par lot: 1.78s
+2025-08-15 21:33:29 [INFO] --- Rapport monitoring ---
+2025-08-15 21:33:29 [INFO] RAM max utilisée: 20792MB / 64569MB
+2025-08-15 21:33:29 [INFO] GPU max utilisé: 295MB / 12281MB
+2025-08-15 21:33:29 [INFO] Temps moyen par lot: 1.78s
+2025-08-15 21:33:29 [INFO] Nombre de lots: 2
+2025-08-15 21:33:29 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 21:33:29 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00001_00050.parquet (50 phrases)
+2025-08-15 21:33:29 [INFO] Meta batch_info_fr.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info_fr.parquet
+2025-08-15 21:33:29 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.010 secondes
+2025-08-15 21:33:29 [INFO] [TIMER] Fin de 'Traduction' : 4.372 secondes
+2025-08-15 21:33:29 [ERROR] Erreur sur le lot batch_00001_00050
+2025-08-15 21:33:29 [ERROR] expected an indented block after function definition on line 11 (postprocessing.py, line 12)
+2025-08-15 21:33:29 [INFO] [TIMER] Début de 'Prétraitement'
+2025-08-15 21:33:29 [INFO] Prétraitement du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00051_00100.parquet
+2025-08-15 21:33:29 [INFO] Prétraitement terminé pour batch_00051_00100.parquet
+2025-08-15 21:33:29 [INFO] [TIMER] Fin de 'Prétraitement' : 0.009 secondes
+2025-08-15 21:33:29 [INFO] [TIMER] Début de 'Traduction'
+2025-08-15 21:33:29 [INFO] GPU CUDA détecté et utilisé.
+2025-08-15 21:33:29 [INFO] Traduction du lot : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00051_00100.parquet avec le modèle Helsinki-NLP/opus-mt-en-fr
+2025-08-15 21:33:30 [INFO] Traduction par batchs de taille 32 (total: 50 phrases)
+2025-08-15 21:33:31 [INFO] Batch traduit : 32 phrases.
+2025-08-15 21:33:31 [INFO] GPU: 295MB / 12281MB
+2025-08-15 21:33:31 [INFO] RAM: 20782MB / 64569MB
+2025-08-15 21:33:31 [INFO] Lots traités: 1 / 2
+2025-08-15 21:33:32 [INFO] Batch traduit : 18 phrases.
+2025-08-15 21:33:32 [INFO] GPU: 295MB / 12281MB
+2025-08-15 21:33:32 [INFO] RAM: 20784MB / 64569MB
+2025-08-15 21:33:32 [INFO] Lots traités: 2 / 2
+2025-08-15 21:33:32 [INFO] Temps moyen par lot: 0.91s
+2025-08-15 21:33:32 [INFO] --- Rapport monitoring ---
+2025-08-15 21:33:32 [INFO] RAM max utilisée: 20784MB / 64569MB
+2025-08-15 21:33:32 [INFO] GPU max utilisé: 295MB / 12281MB
+2025-08-15 21:33:32 [INFO] Temps moyen par lot: 0.91s
+2025-08-15 21:33:32 [INFO] Nombre de lots: 2
+2025-08-15 21:33:32 [INFO] [TIMER] Début de 'Génération lots FR'
+2025-08-15 21:33:32 [INFO] Lot de traduction généré : C:\Users\maxam\Desktop\trans_sent\translations\batches\batch_00051_00100.parquet (50 phrases)
+2025-08-15 21:33:32 [INFO] Meta batch_info_fr.parquet mis à jour : C:\Users\maxam\Desktop\trans_sent\translations\meta\batch_info_fr.parquet
+2025-08-15 21:33:32 [INFO] [TIMER] Fin de 'Génération lots FR' : 0.016 secondes
+2025-08-15 21:33:32 [INFO] [TIMER] Fin de 'Traduction' : 2.547 secondes
+2025-08-15 21:33:32 [ERROR] Erreur sur le lot batch_00051_00100
+2025-08-15 21:33:32 [ERROR] expected an indented block after function definition on line 11 (postprocessing.py, line 12)
+2025-08-15 21:33:32 [INFO] --- Pipeline terminée avec succès ---

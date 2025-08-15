@@ -8,9 +8,10 @@ __pycache__/
 *.pyd
 .DS_Store
 .ipynb_checkpoints/
-/logs/
 outputs/
 outputs_reference/
 models/
 *.parquet
+!translations/batches/*.parquet
+!translations/meta/*.parquet
 *.safetensors

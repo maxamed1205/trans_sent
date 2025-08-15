@@ -3,8 +3,10 @@ Module de gestion du statut des lots pour la pipeline.
 """
 import pandas as pd
 import os
-from utils.core import log_info, log_error
+from utils.core import log_info, log_error, log_execution_time
 
+def update_batch_status(meta_path, batch_id, new_status):
+@log_execution_time('Maj statut lot')
 def update_batch_status(meta_path, batch_id, new_status):
     """Met à jour le statut d'un lot dans le fichier meta."""
     if not os.path.isfile(meta_path):

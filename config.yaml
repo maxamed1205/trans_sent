@@ -17,7 +17,7 @@ utils_dir: utils
 
 # Modèles à tester (ajoute ici tous les modèles que tu veux comparer)
 models:
-  - name: opus-mt-en-fr
+  - name: Helsinki-NLP/opus-mt-en-fr
     path: opus-mt-en-fr/models--Helsinki-NLP--opus-mt-en-fr/snapshots/dd7f6540a7a48a7f4db59e5c0b9c42c8eea67f18
     type: marian
   # - name: nllb-200
@@ -29,7 +29,7 @@ batch_size: 32
 max_length: 256
 num_workers: 2
 
-device: cpu  # ou 'cpu' selon la machine
+device: cuda  # ou 'cpu' selon la machine
 
 # Options pipeline
 save_intermediate: true

@@ -1,0 +1,5 @@
+2025-08-15 20:17:47 [INFO] [TIMER] Début de 'Génération lots EN'
+2025-08-15 20:17:47 [INFO] Lots déjà présents dans C:\Users\maxam\Desktop\trans_sent\translations\batches, génération ignorée.
+2025-08-15 20:17:47 [INFO] [TIMER] Fin de 'Génération lots EN' : 0.002 secondes
+2025-08-15 20:17:47 [ERROR] Erreur critique dans la pipeline
+2025-08-15 20:17:47 [ERROR] 'negation_scope_start'
