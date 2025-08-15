@@ -1,0 +1,16 @@
+# Ignore data and environment folders
+/data/
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.ipynb_checkpoints/
+/logs/
+outputs/
+outputs_reference/
+models/
+*.parquet
+*.safetensors
